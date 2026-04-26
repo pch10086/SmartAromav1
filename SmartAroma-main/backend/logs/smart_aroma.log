@@ -1,0 +1,439 @@
+2026-04-16 11:26:36 | INFO | smart_aroma.main | SmartAroma backend started
+2026-04-16 11:26:44 | INFO | smart_aroma.main | SmartAroma backend shutdown
+2026-04-16 11:28:22 | INFO | smart_aroma.main | SmartAroma backend started
+2026-04-16 11:30:03 | INFO | smart_aroma.main | WebSocket connected; clients=1
+2026-04-16 11:30:13 | INFO | smart_aroma.engine.aroma_controller | User action: start preference=助眠
+2026-04-16 11:30:13 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-16 11:30:13 | INFO | smart_aroma.api.routes | REST POST /api/start preference=助眠 ok=True
+2026-04-16 11:30:13 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-16 11:30:13 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for 助眠
+2026-04-16 11:30:13 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-16 11:30:13 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(40)
+2026-04-16 11:30:34 | INFO | smart_aroma.engine.aroma_controller | State phase: running -> paused
+2026-04-16 11:30:34 | INFO | smart_aroma.engine.aroma_controller | User action: pause
+2026-04-16 11:30:34 | INFO | smart_aroma.api.routes | REST POST /api/pause ok=True
+2026-04-16 11:30:35 | INFO | smart_aroma.engine.aroma_controller | State phase: paused -> running
+2026-04-16 11:30:35 | INFO | smart_aroma.engine.aroma_controller | User action: resume
+2026-04-16 11:30:35 | INFO | smart_aroma.api.routes | REST POST /api/resume ok=True
+2026-04-16 11:30:38 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-16 11:30:38 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-16 11:30:38 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-16 11:30:38 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-16 11:30:38 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-16 11:30:38 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-16 11:30:38 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-16 11:30:41 | INFO | smart_aroma.engine.aroma_controller | User action: start preference=冥想
+2026-04-16 11:30:41 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-16 11:30:41 | INFO | smart_aroma.api.routes | REST POST /api/start preference=冥想 ok=True
+2026-04-16 11:30:41 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-16 11:30:41 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for 冥想
+2026-04-16 11:30:41 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-16 11:30:41 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(25)
+2026-04-16 11:30:52 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-16 11:30:52 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-16 11:30:52 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-16 11:30:52 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-16 11:30:52 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-16 11:30:52 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-16 11:30:52 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-16 11:30:54 | INFO | smart_aroma.engine.aroma_controller | User action: start preference=提神
+2026-04-16 11:30:54 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-16 11:30:54 | INFO | smart_aroma.api.routes | REST POST /api/start preference=提神 ok=True
+2026-04-16 11:30:54 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-16 11:30:54 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for 提神
+2026-04-16 11:30:54 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-16 11:30:54 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(60)
+2026-04-16 11:31:18 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-16 11:31:18 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-16 11:31:18 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-16 11:31:18 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-16 11:31:18 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-16 11:31:18 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-16 11:31:18 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-16 11:31:20 | INFO | smart_aroma.engine.aroma_controller | User action: start preference=放松
+2026-04-16 11:31:20 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-16 11:31:20 | INFO | smart_aroma.api.routes | REST POST /api/start preference=放松 ok=True
+2026-04-16 11:31:20 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-16 11:31:20 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for 放松
+2026-04-16 11:31:20 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-16 11:31:20 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(35)
+2026-04-16 11:31:49 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-16 11:31:49 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-16 11:31:49 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-16 11:31:49 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-16 11:31:49 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-16 11:31:49 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-16 11:31:49 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-16 11:31:50 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-16 11:32:08 | INFO | smart_aroma.main | SmartAroma backend shutdown
+2026-04-25 17:30:27 | INFO | smart_aroma.main | SmartAroma backend started
+2026-04-25 17:31:33 | INFO | smart_aroma.main | WebSocket connected; clients=1
+2026-04-25 17:47:06 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 21:23:54 | INFO | smart_aroma.main | WebSocket connected; clients=1
+2026-04-25 21:44:36 | INFO | smart_aroma.engine.aroma_controller | User action: start preference=助眠
+2026-04-25 21:44:36 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 21:44:36 | INFO | smart_aroma.api.routes | REST POST /api/start preference=助眠 ok=True
+2026-04-25 21:44:36 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 21:44:36 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for 助眠
+2026-04-25 21:44:36 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 21:44:36 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(40)
+2026-04-25 21:44:38 | INFO | smart_aroma.engine.aroma_controller | State phase: running -> paused
+2026-04-25 21:44:38 | INFO | smart_aroma.engine.aroma_controller | User action: pause
+2026-04-25 21:44:38 | INFO | smart_aroma.api.routes | REST POST /api/pause ok=True
+2026-04-25 21:44:40 | INFO | smart_aroma.engine.aroma_controller | State phase: paused -> running
+2026-04-25 21:44:41 | INFO | smart_aroma.engine.aroma_controller | User action: resume
+2026-04-25 21:44:41 | INFO | smart_aroma.api.routes | REST POST /api/resume ok=True
+2026-04-25 21:44:43 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 21:44:43 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 21:44:43 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 21:44:43 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 21:44:43 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 21:44:43 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 21:44:43 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 21:44:46 | INFO | smart_aroma.engine.aroma_controller | User action: start preference=提神
+2026-04-25 21:44:46 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 21:44:46 | INFO | smart_aroma.api.routes | REST POST /api/start preference=提神 ok=True
+2026-04-25 21:44:46 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 21:44:46 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for 提神
+2026-04-25 21:44:46 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 21:44:46 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(60)
+2026-04-25 21:46:46 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(50)
+2026-04-25 21:48:46 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(40)
+2026-04-25 21:50:46 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 21:50:46 | INFO | smart_aroma.engine.aroma_controller | State phase: running -> completed
+2026-04-25 21:50:46 | INFO | smart_aroma.engine.aroma_controller | Sequence completed
+2026-04-25 21:50:46 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 22:19:50 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 22:19:50 | INFO | smart_aroma.main | SmartAroma backend shutdown
+2026-04-25 22:48:07 | INFO | smart_aroma.main | SmartAroma backend started
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket connected; clients=1
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket connected; clients=2
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket connected; clients=3
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket connected; clients=4
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket connected; clients=4
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket connected; clients=4
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 22:48:07 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=通勤提神 persona=松弛老友 duration_level=标准
+2026-04-25 22:48:07 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 22:48:07 | INFO | smart_aroma.api.routes | REST POST /api/start scene=通勤提神 persona=松弛老友 duration_level=标准 ok=True
+2026-04-25 22:48:07 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 22:48:07 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=通勤提神 persona=松弛老友 duration_level=标准
+2026-04-25 22:48:07 | INFO | smart_aroma.api.routes | REST POST /api/start scene=通勤提神 persona=松弛老友 duration_level=标准 ok=False
+2026-04-25 22:48:07 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 22:48:07 | INFO | smart_aroma.api.routes | REST POST /api/start scene=通勤提神 persona=松弛老友 duration_level=标准 ok=False
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 22:48:07 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(65)
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket connected; clients=1
+2026-04-25 22:48:07 | INFO | smart_aroma.api.routes | REST POST /api/start scene=通勤提神 persona=温柔恋人 duration_level=速享 ok=False
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket connected; clients=2
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket connected; clients=3
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket connected; clients=4
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 22:48:07 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 22:48:07 | INFO | smart_aroma.api.routes | REST POST /api/start scene=睡前安睡 persona=专业调香师 duration_level=标准 ok=False
+2026-04-25 22:48:07 | INFO | smart_aroma.api.routes | REST POST /api/start scene=睡前安睡 persona=专业调香师 duration_level=标准 ok=False
+2026-04-25 22:48:07 | INFO | smart_aroma.api.routes | REST POST /api/start scene=阅读专注 persona=专业调香师 duration_level=标准 ok=False
+2026-04-25 22:48:07 | INFO | smart_aroma.api.routes | REST POST /api/start scene=阅读专注 persona=专业调香师 duration_level=标准 ok=False
+2026-04-25 22:48:07 | INFO | smart_aroma.api.routes | REST POST /api/start scene=阅读专注 persona=松弛老友 duration_level=沉浸 ok=False
+2026-04-25 22:48:07 | INFO | smart_aroma.api.routes | REST POST /api/start scene=阅读专注 persona=专业调香师 duration_level=标准 ok=False
+2026-04-25 22:48:07 | INFO | smart_aroma.api.routes | REST POST /api/start scene=阅读专注 persona=松弛老友 duration_level=沉浸 ok=False
+2026-04-25 22:48:07 | INFO | smart_aroma.api.routes | REST POST /api/start scene=阅读专注 persona=松弛老友 duration_level=沉浸 ok=False
+2026-04-25 22:49:07 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(55)
+2026-04-25 22:50:07 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(45)
+2026-04-25 22:51:07 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:51:07 | INFO | smart_aroma.engine.aroma_controller | State phase: running -> completed
+2026-04-25 22:51:07 | INFO | smart_aroma.engine.aroma_controller | Sequence completed
+2026-04-25 22:51:07 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 22:51:30 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 22:51:30 | INFO | smart_aroma.main | WebSocket connected; clients=1
+2026-04-25 22:51:32 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=睡前安睡 persona=专业调香师 duration_level=标准
+2026-04-25 22:51:32 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 22:51:32 | INFO | smart_aroma.api.routes | REST POST /api/start scene=睡前安睡 persona=专业调香师 duration_level=标准 ok=True
+2026-04-25 22:51:32 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:51:32 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=睡前安睡 persona=专业调香师 duration_level=标准
+2026-04-25 22:51:32 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 22:51:32 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(40)
+2026-04-25 22:51:46 | INFO | smart_aroma.engine.aroma_controller | State phase: running -> paused
+2026-04-25 22:51:46 | INFO | smart_aroma.engine.aroma_controller | User action: pause
+2026-04-25 22:51:46 | INFO | smart_aroma.api.routes | REST POST /api/pause ok=True
+2026-04-25 22:51:48 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 22:51:48 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:51:48 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 22:51:48 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:51:48 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 22:51:48 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 22:51:48 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:51:54 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=睡前安睡 persona=松弛老友 duration_level=标准
+2026-04-25 22:51:54 | INFO | smart_aroma.api.routes | REST POST /api/start scene=睡前安睡 persona=松弛老友 duration_level=标准 ok=True
+2026-04-25 22:51:54 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 22:51:54 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:51:54 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=睡前安睡 persona=松弛老友 duration_level=标准
+2026-04-25 22:51:54 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 22:51:54 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(40)
+2026-04-25 22:52:10 | INFO | smart_aroma.engine.aroma_controller | State phase: running -> paused
+2026-04-25 22:52:10 | INFO | smart_aroma.engine.aroma_controller | User action: pause
+2026-04-25 22:52:10 | INFO | smart_aroma.api.routes | REST POST /api/pause ok=True
+2026-04-25 22:52:11 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 22:52:11 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:52:11 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 22:52:11 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:52:11 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 22:52:11 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 22:52:11 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:52:22 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=晨间唤醒 persona=松弛老友 duration_level=标准
+2026-04-25 22:52:22 | INFO | smart_aroma.api.routes | REST POST /api/start scene=晨间唤醒 persona=松弛老友 duration_level=标准 ok=True
+2026-04-25 22:52:22 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 22:52:22 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:52:22 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=晨间唤醒 persona=松弛老友 duration_level=标准
+2026-04-25 22:52:22 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 22:52:22 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(55)
+2026-04-25 22:52:35 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 22:52:35 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:52:35 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 22:52:35 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:52:35 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 22:52:35 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 22:52:35 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:52:41 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=晨间唤醒 persona=温柔恋人 duration_level=沉浸
+2026-04-25 22:52:41 | INFO | smart_aroma.api.routes | REST POST /api/start scene=晨间唤醒 persona=温柔恋人 duration_level=沉浸 ok=True
+2026-04-25 22:52:41 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 22:52:41 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:52:41 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=晨间唤醒 persona=温柔恋人 duration_level=沉浸
+2026-04-25 22:52:41 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 22:52:41 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(55)
+2026-04-25 22:52:48 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 22:52:48 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:52:48 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 22:52:48 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:52:48 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 22:52:48 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 22:52:48 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:52:52 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=晨间唤醒 persona=温柔恋人 duration_level=速享
+2026-04-25 22:52:52 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 22:52:52 | INFO | smart_aroma.api.routes | REST POST /api/start scene=晨间唤醒 persona=温柔恋人 duration_level=速享 ok=True
+2026-04-25 22:52:52 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:52:52 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=晨间唤醒 persona=温柔恋人 duration_level=速享
+2026-04-25 22:52:52 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 22:52:52 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(55)
+2026-04-25 22:52:56 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 22:52:56 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:52:56 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 22:52:56 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:52:56 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 22:52:56 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 22:52:56 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:53:00 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=通勤提神 persona=温柔恋人 duration_level=速享
+2026-04-25 22:53:00 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 22:53:00 | INFO | smart_aroma.api.routes | REST POST /api/start scene=通勤提神 persona=温柔恋人 duration_level=速享 ok=True
+2026-04-25 22:53:00 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:53:00 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=通勤提神 persona=温柔恋人 duration_level=速享
+2026-04-25 22:53:00 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 22:53:00 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(65)
+2026-04-25 22:53:03 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 22:53:03 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:53:03 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 22:53:03 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 22:53:03 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 22:53:03 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 22:53:03 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:00:28 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 23:02:34 | INFO | smart_aroma.main | WebSocket connected; clients=1
+2026-04-25 23:02:55 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=阅读专注 persona=温柔恋人 duration_level=标准
+2026-04-25 23:02:55 | INFO | smart_aroma.api.routes | REST POST /api/start scene=阅读专注 persona=温柔恋人 duration_level=标准 ok=True
+2026-04-25 23:02:55 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 23:02:55 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:02:55 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=阅读专注 persona=温柔恋人 duration_level=标准
+2026-04-25 23:02:55 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 23:02:55 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(30)
+2026-04-25 23:03:04 | INFO | smart_aroma.engine.aroma_controller | State phase: running -> paused
+2026-04-25 23:03:04 | INFO | smart_aroma.engine.aroma_controller | User action: pause
+2026-04-25 23:03:04 | INFO | smart_aroma.api.routes | REST POST /api/pause ok=True
+2026-04-25 23:03:05 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 23:03:05 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:03:05 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 23:03:05 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:03:05 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 23:03:05 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 23:03:05 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:03:10 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=阅读专注 persona=松弛老友 duration_level=标准
+2026-04-25 23:03:10 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 23:03:10 | INFO | smart_aroma.api.routes | REST POST /api/start scene=阅读专注 persona=松弛老友 duration_level=标准 ok=True
+2026-04-25 23:03:10 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:03:10 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=阅读专注 persona=松弛老友 duration_level=标准
+2026-04-25 23:03:10 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 23:03:10 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(30)
+2026-04-25 23:03:30 | INFO | smart_aroma.engine.aroma_controller | State phase: running -> paused
+2026-04-25 23:03:30 | INFO | smart_aroma.engine.aroma_controller | User action: pause
+2026-04-25 23:03:30 | INFO | smart_aroma.api.routes | REST POST /api/pause ok=True
+2026-04-25 23:03:31 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 23:03:31 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:03:31 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 23:03:31 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:03:31 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 23:03:31 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 23:03:31 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:04:27 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=阅读专注 persona=松弛老友 duration_level=标准
+2026-04-25 23:04:27 | INFO | smart_aroma.api.routes | REST POST /api/start scene=阅读专注 persona=松弛老友 duration_level=标准 ok=True
+2026-04-25 23:04:27 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 23:04:27 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:04:27 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=阅读专注 persona=松弛老友 duration_level=标准
+2026-04-25 23:04:27 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 23:04:27 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(30)
+2026-04-25 23:05:54 | INFO | smart_aroma.engine.aroma_controller | State phase: running -> paused
+2026-04-25 23:05:54 | INFO | smart_aroma.engine.aroma_controller | User action: pause
+2026-04-25 23:05:54 | INFO | smart_aroma.api.routes | REST POST /api/pause ok=True
+2026-04-25 23:05:55 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 23:05:55 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:05:55 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 23:05:55 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:05:55 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 23:05:55 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 23:05:55 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:06:06 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 23:06:06 | INFO | smart_aroma.main | WebSocket connected; clients=1
+2026-04-25 23:07:21 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 23:07:21 | INFO | smart_aroma.main | WebSocket connected; clients=1
+2026-04-25 23:07:26 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=睡前安睡 persona=专业调香师 duration_level=标准
+2026-04-25 23:07:26 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 23:07:26 | INFO | smart_aroma.api.routes | REST POST /api/start scene=睡前安睡 persona=专业调香师 duration_level=标准 ok=True
+2026-04-25 23:07:26 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:07:26 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=睡前安睡 persona=专业调香师 duration_level=标准
+2026-04-25 23:07:26 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 23:07:26 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(40)
+2026-04-25 23:07:31 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 23:07:31 | INFO | smart_aroma.main | WebSocket connected; clients=1
+2026-04-25 23:07:35 | INFO | smart_aroma.engine.aroma_controller | State phase: running -> paused
+2026-04-25 23:07:35 | INFO | smart_aroma.engine.aroma_controller | User action: pause
+2026-04-25 23:07:35 | INFO | smart_aroma.api.routes | REST POST /api/pause ok=True
+2026-04-25 23:07:37 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 23:07:37 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:07:37 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 23:07:37 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:07:37 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 23:07:37 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 23:07:37 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:07:44 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=晨间唤醒 persona=温柔恋人 duration_level=标准
+2026-04-25 23:07:44 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 23:07:44 | INFO | smart_aroma.api.routes | REST POST /api/start scene=晨间唤醒 persona=温柔恋人 duration_level=标准 ok=True
+2026-04-25 23:07:44 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:07:44 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=晨间唤醒 persona=温柔恋人 duration_level=标准
+2026-04-25 23:07:44 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 23:07:44 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(55)
+2026-04-25 23:07:49 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 23:07:49 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:07:49 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 23:07:49 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:07:49 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 23:07:49 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 23:07:49 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:09:03 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 23:09:03 | INFO | smart_aroma.main | WebSocket connected; clients=1
+2026-04-25 23:10:02 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 23:11:41 | INFO | smart_aroma.main | SmartAroma backend shutdown
+2026-04-25 23:11:55 | INFO | smart_aroma.main | SmartAroma backend started
+2026-04-25 23:13:15 | INFO | smart_aroma.main | WebSocket connected; clients=1
+2026-04-25 23:13:20 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=睡前安睡 persona=温柔恋人 duration_level=标准
+2026-04-25 23:13:20 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 23:13:20 | INFO | smart_aroma.api.routes | REST POST /api/start scene=睡前安睡 persona=温柔恋人 duration_level=标准 ok=True
+2026-04-25 23:13:20 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:13:20 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=睡前安睡 persona=温柔恋人 duration_level=标准
+2026-04-25 23:13:20 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 23:13:20 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(40)
+2026-04-25 23:13:24 | INFO | smart_aroma.engine.aroma_controller | State phase: running -> paused
+2026-04-25 23:13:24 | INFO | smart_aroma.engine.aroma_controller | User action: pause
+2026-04-25 23:13:24 | INFO | smart_aroma.api.routes | REST POST /api/pause ok=True
+2026-04-25 23:13:26 | INFO | smart_aroma.engine.aroma_controller | State phase: paused -> running
+2026-04-25 23:13:26 | INFO | smart_aroma.engine.aroma_controller | User action: resume
+2026-04-25 23:13:26 | INFO | smart_aroma.api.routes | REST POST /api/resume ok=True
+2026-04-25 23:13:35 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 23:13:35 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:13:35 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 23:13:35 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:13:35 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 23:13:35 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 23:13:35 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:13:46 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=通勤提神 persona=温柔恋人 duration_level=标准
+2026-04-25 23:13:46 | INFO | smart_aroma.api.routes | REST POST /api/start scene=通勤提神 persona=温柔恋人 duration_level=标准 ok=True
+2026-04-25 23:13:46 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 23:13:46 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:13:46 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=通勤提神 persona=温柔恋人 duration_level=标准
+2026-04-25 23:13:46 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 23:13:46 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(65)
+2026-04-25 23:13:47 | INFO | smart_aroma.api.routes | REST POST /api/start scene=通勤提神 persona=温柔恋人 duration_level=标准 ok=False
+2026-04-25 23:13:51 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 23:13:51 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:13:51 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 23:13:51 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:13:51 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 23:13:51 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 23:13:51 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:16:05 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=晨间唤醒 persona=松弛老友 duration_level=标准
+2026-04-25 23:16:05 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 23:16:05 | INFO | smart_aroma.api.routes | REST POST /api/start scene=晨间唤醒 persona=松弛老友 duration_level=标准 ok=True
+2026-04-25 23:16:05 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:16:05 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=晨间唤醒 persona=松弛老友 duration_level=标准
+2026-04-25 23:16:05 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 23:16:05 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(55)
+2026-04-25 23:16:09 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 23:16:09 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:16:09 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 23:16:09 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:16:09 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 23:16:09 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 23:16:09 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:17:00 | INFO | smart_aroma.main | WebSocket disconnected
+2026-04-25 23:17:00 | INFO | smart_aroma.main | WebSocket connected; clients=1
+2026-04-25 23:17:05 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=静心冥想 persona=松弛老友 duration_level=标准
+2026-04-25 23:17:05 | INFO | smart_aroma.api.routes | REST POST /api/start scene=静心冥想 persona=松弛老友 duration_level=标准 ok=True
+2026-04-25 23:17:05 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 23:17:05 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:17:05 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=静心冥想 persona=松弛老友 duration_level=标准
+2026-04-25 23:17:05 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 23:17:05 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(25)
+2026-04-25 23:17:21 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 23:17:21 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:17:21 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 23:17:21 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:17:21 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 23:17:21 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 23:17:21 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:18:19 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=通勤提神 persona=专业调香师 duration_level=速享
+2026-04-25 23:18:19 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 23:18:19 | INFO | smart_aroma.api.routes | REST POST /api/start scene=通勤提神 persona=专业调香师 duration_level=速享 ok=True
+2026-04-25 23:18:19 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:18:19 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=通勤提神 persona=专业调香师 duration_level=速享
+2026-04-25 23:18:19 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 23:18:19 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(65)
+2026-04-25 23:18:27 | INFO | smart_aroma.engine.aroma_controller | State phase: running -> paused
+2026-04-25 23:18:27 | INFO | smart_aroma.engine.aroma_controller | User action: pause
+2026-04-25 23:18:27 | INFO | smart_aroma.api.routes | REST POST /api/pause ok=True
+2026-04-25 23:18:30 | INFO | smart_aroma.engine.aroma_controller | State phase: paused -> running
+2026-04-25 23:18:30 | INFO | smart_aroma.engine.aroma_controller | User action: resume
+2026-04-25 23:18:30 | INFO | smart_aroma.api.routes | REST POST /api/resume ok=True
+2026-04-25 23:18:34 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 23:18:34 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:18:34 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 23:18:34 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:18:34 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 23:18:34 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 23:18:34 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:18:44 | INFO | smart_aroma.engine.aroma_controller | User action: start scene=睡前安睡 persona=温柔恋人 duration_level=沉浸
+2026-04-25 23:18:44 | INFO | smart_aroma.engine.aroma_controller | State phase: idle -> generating
+2026-04-25 23:18:44 | INFO | smart_aroma.api.routes | REST POST /api/start scene=睡前安睡 persona=温柔恋人 duration_level=沉浸 ok=True
+2026-04-25 23:18:44 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:18:44 | WARNING | smart_aroma.llm.qwen_client | MOCK_PLAN: no LLM API key; using built-in plan for scene=睡前安睡 persona=温柔恋人 duration_level=沉浸
+2026-04-25 23:18:44 | INFO | smart_aroma.engine.aroma_controller | State phase: generating -> running
+2026-04-25 23:18:44 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(40)
+2026-04-25 23:18:57 | INFO | smart_aroma.engine.aroma_controller | User action: stop
+2026-04-25 23:18:57 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:18:57 | INFO | smart_aroma.api.routes | REST POST /api/stop ok=True
+2026-04-25 23:18:57 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:18:57 | INFO | smart_aroma.engine.aroma_controller | Sequence stopped
+2026-04-25 23:18:57 | INFO | smart_aroma.engine.aroma_controller | State reset to idle after session end
+2026-04-25 23:18:57 | INFO | smart_aroma.engine.aroma_controller | FanBackend.set_fan_speed(0)
+2026-04-25 23:22:21 | INFO | smart_aroma.main | WebSocket disconnected
